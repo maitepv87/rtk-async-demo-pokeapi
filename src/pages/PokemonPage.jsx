@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPokemons, resetState } from "../store/slices/pokemon";
-import { LoadingSpinner, ErrorMessage, PokemonCard } from "../components";
+import { LoadingSpinner, ErrorMessage } from "../components";
+import { PokemonCard } from "../pokemons/components";
 
-export const PokemonApp = () => {
+export const PokemonPage = () => {
   const {
     isLoading,
     pokemons = [],
@@ -37,6 +38,7 @@ export const PokemonApp = () => {
       <div className="pokemon-list">
         {pokemons.map((pokemon) => (
           <PokemonCard
+            key={pokemon.name}
             pokemonData={pokemon}
             pokemonImage={`https://img.pokemondb.net/artwork/large/${pokemon.name}.jpg`}
           />

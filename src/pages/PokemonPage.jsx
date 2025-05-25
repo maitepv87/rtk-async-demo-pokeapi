@@ -5,13 +5,13 @@ import { LoadingSpinner, ErrorMessage } from "../components";
 import { PokemonCard, NextButton } from "../pokemons/components";
 
 export const PokemonPage = () => {
+  const dispatch = useDispatch();
   const {
     isLoading,
     pokemons = [],
     page,
     error,
   } = useSelector((state) => state.pokemon);
-  const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getPokemons());
@@ -20,7 +20,7 @@ export const PokemonPage = () => {
       // Cleanup code runs on unmount
       dispatch(resetState());
     };
-  }, [dispatch]);
+  }, []);
 
   return (
     <div className="app-container">

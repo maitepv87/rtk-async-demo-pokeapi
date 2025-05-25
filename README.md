@@ -13,12 +13,13 @@ It serves as a structured sandbox for understanding how Redux Toolkit simplifies
 
 ## Technologies Used
 
-- **React** – Frontend library for building UI components
-- **Vite** – Fast build tool and development environment
-- **Redux Toolkit** – Standard approach for writing Redux logic
-- **React Redux** – Official bindings between React and Redux
-- **Axios** – Promise-based HTTP client for API requests
-- **CSS** – Simple styling for UI responsiveness
+- **React** – Frontend library for building UI components  
+- **Vite** – Fast build tool and development environment  
+- **Redux Toolkit** – Standard approach for writing Redux logic  
+- **React Redux** – Official bindings between React and Redux  
+- **Axios** – Promise-based HTTP client for API requests  
+- **PropTypes** – Runtime type validation for React components  
+- **CSS** – Simple styling for UI responsiveness 
 
 ## Getting Started
 

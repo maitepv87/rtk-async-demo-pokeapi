@@ -1,8 +1,8 @@
-# RTK-Async-Demo-PokeAPI
+# RTK-Axios-PokeAPI
 
 ## Description
 
-RTK-Async-Demo-PokeAPI is a testing lab built with **React**, **Redux Toolkit**, and **Axios**, designed to explore efficient state management and API integration patterns. This project allows hands-on experimentation with:
+RTK-Axios-PokeAPI is a testing lab built with **React**, **Redux Toolkit**, and **Axios**, designed to explore efficient state management and API integration patterns. This project allows hands-on experimentation with:
 
 - Fetching Pokémon data asynchronously using Axios
 - Managing global state with Redux Toolkit
@@ -30,9 +30,8 @@ To run the project locally, follow these steps:
 #### Clone the repository
 
 ```bash
-git clone https://github.com/maitepv87/rtk-async-demo-pokeapi.git
-cd rtk-async-demo-pokeapi
-
+git clone https://github.com/maitepv87/rtk-axios-pokeapi.git
+cd rtk-axios-pokeapi
 npm install
 npm run dev
 
